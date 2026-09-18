@@ -1,0 +1,28 @@
+[build-system]
+requires = ["setuptools>=61", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "kie-api"
+version = "0.1.0"
+description = "Python client for Kie.ai-class multi-model access via a hosted API: Veo 3.1, Seedance 2.5 and Nano Banana Pro."
+readme = "README.md"
+license = {text = "MIT"}
+requires-python = ">=3.8"
+authors = [{name = "kie-ai-official"}]
+keywords = ["ai api", "kie", "kie api", "kie python", "nano-banana-pro", "seedance-2.5", "synexa", "veo3.1"]
+classifiers = [
+  "Programming Language :: Python :: 3",
+  "License :: OSI Approved :: MIT License",
+  "Operating System :: OS Independent",
+  "Topic :: Scientific/Engineering :: Artificial Intelligence",
+]
+dependencies = ["httpx>=0.24"]
+
+[project.urls]
+Homepage = "https://github.com/kie-ai-official/kie-api"
+Documentation = "https://kie-ai-official.github.io/kie-api/"
+"Hosted model" = "https://synexa.ai/explore/google/veo3.1"
+
+[tool.setuptools.packages.find]
+include = ["kie_api*"]
