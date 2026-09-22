@@ -200,4 +200,5 @@ No. This is an independent client that wraps hosted endpoints on Synexa. Kie.ai'
 MIT. This is an independent, community-maintained client and is not affiliated with or endorsed by the authors of Kie.ai. Model weights and trademarks belong to their respective owners.
 
 
+
 _Last reviewed: 2026-09-22_
